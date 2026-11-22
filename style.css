@@ -1,0 +1,15 @@
+/* Vaste waarden van de site: kleuren, lettertype en maten */
+:root {
+  --kleur-1: #111318; /* achtergrond */
+  --kleur-2: #172A46; /* kaarten, blokken en footer */
+  --kleur-3: #4CC9F0; /* accent: links, knoppen en labels */
+
+  --breedte-aside: 16rem;
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background-color: var(--kleur-1);
+  color: #e2e8f0;
+}
